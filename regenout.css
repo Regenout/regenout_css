@@ -111,22 +111,3 @@ body,
     color: #fff;
 }
 
-.react-datepicker__navigation {
-    -webkit-appearance: none;
-    background: url(/public/static/media/chevron-right.51423861.svg) no-repeat 50%;
-    border: none;
-    cursor: pointer;
-    height: 2.5rem;
-    line-height: 1.7rem;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    text-align: center;
-    text-indent: -999em;
-    top: 1.5rem;
-    width: 0;
-    width: 2.5rem;
-    z-index: 1;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    filter: invert(23%) sepia(63%) saturate(387%) hue-rotate(65deg) brightness(45%) contrast(130%);
-}
