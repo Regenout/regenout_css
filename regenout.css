@@ -1,5 +1,5 @@
 body {
-    color: #16b78d;
+    color: #9dc4ad;
     font-family: var(--font-family);
     font-size: var(--text-default-size);
     margin: 0;
@@ -9,15 +9,82 @@ body {
 }
 
 .button--primary {
-    background-color: #12a475;
+    background-color: #244646;
     color: var(--primary-button-text-color);
 }
 .button--primary:hover {
-    background-color: #11c9b0;
+    background-color: #9dc4ad;
 }
 
 body,
 .fc-scroller {
     scrollbar-width: thick;
     scrollbar-color: #b0c8ba var(--transparent-color);
+}
+
+.calendar-item__name {
+    color: #244646;
+    font-size: var(--text-heading-size);
+    font-weight: 400;
+    line-height: 1.8rem
+}
+
+.link {
+    -webkit-appearance: none;
+    background: none;
+    border: none;
+    color: #264646;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: text-bottom
+}
+
+:root {
+    --font-family: "Quicksand", sans-serif;
+    --site-bg-color: #fff;
+    --container-bg-color: #fff;
+    --placeholder-dark-color: #ebebeb;
+    --placeholder-light-color: #f5f5f5;
+    --dangerous-color: #ed6e7f;
+    --dangerous-hover-color: #e75f71;
+    --warning-color: #da9a06;
+    --dark-text-color: #1a1a1a;
+    --light-text-color: #757575;
+    --primary-select-color: #00a1c2;
+    --secondary-select-color: #9bcbd4;
+    --primary-button-bg-color: #00a1c2;
+    --primary-button-bg-hover-color: #038eaa;
+    --primary-button-text-color: #fff;
+    --active-green-color: #78d35f;
+    --inactive-grey-color: #a7a7a7;
+    --steps-bg-color: #fff;
+    --spacer-grey-color: #d1e0e6;
+    --form-widget-color: #fff;
+    --form-widget-border-color: #dedede;
+    --form-widget-border-hover-color: #aaa;
+    --box-shadow-color: rgba(0, 0, 0, .075);
+    --transparent-color: rgba(0, 0, 0, 0);
+    --navbar-toggle-color: rgba(0, 0, 0, .1);
+    --neutral-bg-color: hsla(0, 0%, 82%, .3);
+    --hero-section-level: 15;
+    --header-level: 16;
+    --header-logo-container-level: 17;
+    --header-logo-level: 18;
+    --content-above-level: 19;
+    --popup-level: 20;
+    --text-input-width: 30rem;
+    --outline-offset: .2rem;
+    --widget-height: 2.7rem;
+    --text-title-size: 1.8rem;
+    --text-heading-size: 1.5rem;
+    --text-default-size: 1.3rem;
+    --text-small-size: 1.1rem;
+    --button-default-size: 1.3rem;
+    --outline: .3rem solid transparent;
+    --focus-border: var(--outline);
+    --box-shadow: 0 0 .2rem .2rem var(--box-shadow-color);
 }
