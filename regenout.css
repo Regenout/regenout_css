@@ -112,7 +112,7 @@ body,
 }
 
 .react-datepicker__navigation {
-    background: url('../../../../../styles/chevron-right.svg') no-repeat center;
+    background: url('https://regenoutgym.booked4.us/public/static/media/chevron-right.51423861.svg') center center no-repeat;
     line-height: 1.7rem;
     text-align: center;
     cursor: pointer;
@@ -132,7 +132,7 @@ body,
 }
 
 %navbutton {
-    background: url(styles/chevron-right.svg) center no-repeat;
+    background: url('https://regenoutgym.booked4.us/public/static/media/chevron-right.51423861.svg') center center no-repeat;
     background-color: transparent;
     width: 2.5rem;
     height: 2.5rem;
