@@ -131,3 +131,28 @@ body,
     filter: invert(23%) sepia(63%) saturate(387%) hue-rotate(65deg) brightness(45%) contrast(130%);
 }
 
+%navbutton {
+    background: url(styles/chevron-right.svg) center no-repeat;
+    background-color: transparent;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex: none;
+    border: none;
+    filter: invert(23%) sepia(63%) saturate(387%) hue-rotate(65deg) brightness(45%) contrast(130%);
+    > * {
+        display: none;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+        .timetable.timetable & {
+            background-color: transparent;
+            color: unset;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+    &:disabled {
+        visibility: hidden;
+    }
+}
