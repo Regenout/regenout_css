@@ -1,5 +1,5 @@
 body {
-    color: #9dc4ad;
+    color: #244646;
     font-family: var(--font-family);
     font-size: var(--text-default-size);
     margin: 0;
@@ -19,7 +19,7 @@ body {
 body,
 .fc-scroller {
     scrollbar-width: thick;
-    scrollbar-color: #b0c8ba var(--transparent-color);
+    scrollbar-color: #9dc4ad var(--transparent-color);
 }
 
 .calendar-item__name {
@@ -29,11 +29,21 @@ body,
     line-height: 1.8rem
 }
 
+.calendar-item__first-free-slot-text {
+    font-size: var(--text-default-size);
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    color: #9dc4ad;
+}
+
+
 .link {
     -webkit-appearance: none;
     background: none;
     border: none;
-    color: #264646;
+    color: #244646;
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
@@ -97,7 +107,7 @@ body,
     font-size: var(--text-heading-size);
     font-weight: 400;
     line-height: 1.8rem;
-    color: #264646;
+    color: #244646;
 }
 
 .react-datepicker__day--in-range, .react-datepicker__day--in-selecting-range, .react-datepicker__day--selected, .react-datepicker__month-text--in-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--selected {
