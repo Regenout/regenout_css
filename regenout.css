@@ -52,14 +52,14 @@ body,
     --dangerous-color: #ed6e7f;
     --dangerous-hover-color: #e75f71;
     --warning-color: #da9a06;
-    --dark-text-color: #1a1a1a;
+    --dark-text-color: #244646;
     --light-text-color: #757575;
     --primary-select-color: #00a1c2;
     --secondary-select-color: #9bcbd4;
-    --primary-button-bg-color: #00a1c2;
-    --primary-button-bg-hover-color: #038eaa;
+    --primary-button-bg-color: #264646;
+    --primary-button-bg-hover-color: #9dc4ad;
     --primary-button-text-color: #fff;
-    --active-green-color: #78d35f;
+    --active-green-color: #d2e3d9;
     --inactive-grey-color: #a7a7a7;
     --steps-bg-color: #fff;
     --spacer-grey-color: #d1e0e6;
@@ -88,3 +88,26 @@ body,
     --focus-border: var(--outline);
     --box-shadow: 0 0 .2rem .2rem var(--box-shadow-color);
 }
+
+.step-number--touched .step-number__circle {
+    background-color: #9dc4ad;
+}
+
+.service-item__name {
+    font-size: var(--text-heading-size);
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #264646;
+}
+
+.react-datepicker__day--in-range, .react-datepicker__day--in-selecting-range, .react-datepicker__day--selected, .react-datepicker__month-text--in-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--selected {
+    background-color: #9dc4ad;
+    border-radius: 50%;
+    color: #fff;
+}
+.chip__label--selected {
+    background-color: #9dc4ad;
+    color: #fff;
+}
+
+react-datepicker__navigation react-datepicker__navigation--next
