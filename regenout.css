@@ -1,0 +1,23 @@
+body {
+    color: #16b78d;
+    font-family: var(--font-family);
+    font-size: var(--text-default-size);
+    margin: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.button--primary {
+    background-color: #12a475;
+    color: var(--primary-button-text-color);
+}
+.button--primary:hover {
+    background-color: #11c9b0;
+}
+
+body,
+.fc-scroller {
+    scrollbar-width: thick;
+    scrollbar-color: #b0c8ba var(--transparent-color);
+}
