@@ -105,15 +105,16 @@ body,
     border-radius: 50%;
     color: #fff;
 }
+
 .chip__label--selected {
     background-color: #9dc4ad;
     color: #fff;
 }
 
-.fc-next-button {
+.react-datepicker__navigation--next {
   color: #244646
 }
 
-.fc-prev-button {
+.react-datepicker__navigation--previous {
   color: #244646
 }
