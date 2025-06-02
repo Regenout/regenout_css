@@ -140,4 +140,5 @@ body,
     border: none;
     -ms-flex: none;
     flex: none;
+    filter: invert(23%) sepia(63%) saturate(387%) hue-rotate(65deg) brightness(45%) contrast(130%);
 }
