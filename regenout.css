@@ -111,3 +111,14 @@ body,
     color: #fff;
 }
 
+.fc-toolbar-chunk:nth-child(2) .fc-next-button, .fc-toolbar-chunk:nth-child(2) .fc-prev-button {
+    background: url(/public/static/media/chevron-right.51423861.svg) 50% no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    height: 2.5rem;
+    width: 2.5rem;
+    -webkit-box-flex: 0;
+    border: none;
+    -ms-flex: none;
+    flex: none;
+    filter: invert(23%) sepia(63%) saturate(387%) hue-rotate(65deg) brightness(45%) contrast(130%);
+}
