@@ -111,14 +111,23 @@ body,
     color: #fff;
 }
 
-.fc-toolbar-chunk:nth-child(2) .fc-next-button, .fc-toolbar-chunk:nth-child(2) .fc-prev-button {
-    background: url(/public/static/media/chevron-right.51423861.svg) 50% no-repeat;
-    background-color: rgba(0, 0, 0, 0);
+.react-datepicker__navigation {
+    background: url('../../../../../styles/chevron-right.svg') no-repeat center;
+    line-height: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    width: 0;
+    padding: 0;
+    border: none;
+    z-index: 1;
     height: 2.5rem;
     width: 2.5rem;
-    -webkit-box-flex: 0;
-    border: none;
-    -ms-flex: none;
-    flex: none;
+    text-indent: -999em;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
     filter: invert(23%) sepia(63%) saturate(387%) hue-rotate(65deg) brightness(45%) contrast(130%);
 }
+
