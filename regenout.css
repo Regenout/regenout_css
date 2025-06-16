@@ -54,7 +54,7 @@ body,
 }
 
 :root {
-    --font-family: "Quicksand", sans-serif;
+    --font-family: 'Poppins', sans-serif;
     --site-bg-color: #fff;
     --container-bg-color: #fff;
     --placeholder-dark-color: #ebebeb;
